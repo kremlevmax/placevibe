@@ -10,36 +10,3 @@ moderation, and later advanced architecture labs.
 
 ## Current goal
 Build the first MVP: a working map with mock markers, popups, filters, and a sidebar.
-Создай или измени файл: .gitignore
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.idea/
-.vscode/
-*.iml
-
-# Node / frontend
-node_modules/
-dist/
-.env
-.env.*
-!.env.example
-
-# Java / backend
-target/
-build/
-.gradle/
-
-# Logs
-*.log
-
-# Docker / local data
-postgres-data/
-
-# Secrets
-*.pem
-*.key
-secrets/
