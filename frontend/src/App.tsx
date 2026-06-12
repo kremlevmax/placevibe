@@ -1,10 +1,13 @@
-function App() {
+import { Container, Typography } from '@mui/material';
 
+function App() {
   return (
-    <div>
-      <h1>PLACEVIBE</h1>
-    </div>
-  )
+    <Container>
+      <Typography variant="h4" component="h1" sx={{ mt: 4 }}>
+        Placevibe
+      </Typography>
+    </Container>
+  );
 }
 
-export default App
+export default App;
